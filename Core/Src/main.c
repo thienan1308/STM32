@@ -12,6 +12,10 @@ void EXTI0_IRQHandler(){
 	*EXTI_PR |= (1<<0);
 }
 
+//Dang Thien An
+// 1
+//2
+
 int main (void){
 
 	LEDinit();
